@@ -6,4 +6,4 @@ chat_id = 1121374935 # Ваш chat ID, не меняйте название пе
 
 def solution(x: np.array) -> float:
     time = 74 # По условию задачи 
-    return (2*x/time**2).mean() # Ваш ответ
+    return np.mean(x)*2/time**2 # Ответ
